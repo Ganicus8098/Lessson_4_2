@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Comforter:regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Zen+Kurenaido:regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Ruslan+Display:regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Stalinist+One:regular&display=swap");
+
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Book.woff2"), url("../fonts/CircularStd-Book.woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Bookitalic.woff2"), url("../fonts/CircularStd-BookItalic.woff");
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Black.woff2"), url("../fonts/CircularStd-Black.woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Bold.woff2"), url("../fonts/CircularStd-Bold.woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Medium.woff2"), url("../fonts/CircularStd-Medium.woff");
+   font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+   font-family: DotGothic16;
+   src: url("../fonts/DotGothic16-Regular.woff2"), url("../fonts/DotGothic16-Regular.woff");
+   font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+   font-family: Train One;
+   src: url("../fonts/TrainOne-Regular.woff2"), url("../fonts/TrainOne-Regular.woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: Rampart One;
+   src: url("../fonts/RampartOne-Regular.woff2"), url("../fonts/RampartOne-Regular.woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: Zen Kurenaido;
+   src: url("../fonts/ZenKurenaido-Regular.woff2"), url("../fonts/ZenKurenaido-Regular.woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+body {
+   padding: 10px;
+}
+#section {
+   color: rgb(107, 94, 64);
+   font-size: 50px;
+   font-weight: 500;
+   font-family: fantasy;
+   text-align: center;
+   text-decoration: underline;
+   text-transform: uppercase;
+   text-shadow: 0px 0 2px rgb(241, 241, 245), 0 0 1em black;
+}
+.logo {
+   width: 1500px;
+}
+.list {
+   font-family: Arial;
+   color: rgb(107, 94, 64);
+   font-weight: 700;
+}
+.list_two {
+   font-size: 20px;
+   color: rgb(24, 228, 228);
+   font-family: Roboto;
+   font-size: 20px;
+   font-weight: 700;
+   font-style: italic;
+   text-shadow: 1px 0 2px rgb(3, 3, 3), 0 0 1em rgb(17, 61, 61)
+}
+.link {
+   color: rgb(107, 94, 64);
+   font-weight: 900;
+   text-decoration: underline;
+}
+img{
+   width: 700px;
+   height: 400px;
+}
+.foto {
+   height: 500px;
+}
+.subtitle {
+   color: rgb(9, 151, 9);
+   font-family: Haettenschweiler;
+   font-size: 45px;
+   font-weight: 500;
+   text-align: center;
+   text-shadow: 2px 0 2px rgb(0, 0, 0);
+   letter-spacing: 6px;
+}
+.paragraph {
+   color: rgb(9, 151, 9);
+   font-family: Haettenschweiler;
+   font-size: 25px;
+   text-align: justify;
+   text-shadow: 2px 0 2px rgb(0, 0, 0);
+   text-indent: 50px;
+   letter-spacing: 2px;
+}
+.subtitle_one {
+   color: rgb(165, 42, 42);
+   font-size: 30px;
+   font-family: CircularStd;
+   font-weight: 700;
+   text-align: center;
+   text-shadow: 2px 0 2px rgb(222, 184, 135);
+}
+.paragraph_one {
+   color: rgb(165, 42, 42);
+   font-size: 20px;
+   font-family: CircularStd;
+   font-weight: 500;
+   text-align: center;
+   text-shadow: 2px 0 2px rgb(222, 184, 135);
+}
+.subtitle_two {
+   color: rgb(24, 228, 228);
+   font-family: Roboto;
+   font-size: 45px;
+   font-weight: 900;
+   font-style: italic;
+   text-align: center;
+   text-shadow: 1px 0 2px rgb(3, 3, 3), 0 0 1em rgb(17, 61, 61);
+}
+.paragraph_two {
+   color: rgb(20, 90, 90);
+   font-family: Roboto;
+   font-style: italic;
+   font-size: 30px;
+   text-indent: 50px;
+   text-align: justify;
+   text-shadow: 2px 0 2px rgb(24, 228, 228);
+   text-transform: capitalize;
+}
+.subtitle_three {
+   color: rgb(245, 83, 245);
+   font-size: 30px;
+   font-family: Verdana;
+   text-align: center;
+   text-decoration: underline;
+   text-shadow: 2px 0 2px rgb(0, 0, 0);
+   letter-spacing: 20px;
+}
+.paragraph_three {
+   font-size: 20px;
+   font-family: Verdana;
+   text-align: right;
+   word-spacing: 15px;
+   text-transform: lowercase;
+   text-shadow: 2px 0 2px rgb(245, 83, 245);
+}
+.subtitle_four {
+   color: rgb(243, 76, 16);
+   font-family: monospace;
+   font-size: 40px;
+   font-style: italic;
+   text-align: right;
+   text-decoration: underline;
+}
+.paragraph_four {
+   color: rgb(100, 149, 237);
+   font-family: monospace;
+   font-size: 30px;
+   font-style: italic;
+   text-decoration: line-through;
+}
+.subtitle_five, .paragraph_five {
+   color: rgb(184, 134, 11);
+   font-family: BlinkMacSystemFont;
+   font-size: 50px;
+   text-align: center;
+   text-shadow: 2px 0 2px rgb(0, 100, 0);
+   line-height: 70px;
+}
+.paragraph_five {
+   text-transform: capitalize;
+}
+.subtitle_six, .paragraph_six {
+   color: rgb(247, 6, 6);
+   font-size: 35px;
+   font-style: italic;
+   font-family: Lato;
+   font-weight: 900;
+   text-shadow: 2px 0 2px rgb(0, 0, 0);
+}
+.paragraph_six {
+   font-size: 25px;
+   letter-spacing: 5px;
+}
+.subtitle_seven {
+   font-family: Comforter;
+   color: rgb(95, 95, 95);
+   font-size: 55px;
+   text-align: center;
+   text-decoration: underline;
+   text-shadow: 2px 0 2px rgba(250, 250, 3, 0.74);
+   font-weight: 900;
+   letter-spacing: 10px;
+}
+.paragraph_seven {
+   color: rgb(95, 95, 95);
+   font-family: Comforter;
+   font-size: 35px;
+   font-weight: 900;
+   text-align: justify;
+   text-shadow: 3px 0 1px rgba(250, 250, 3, 0.466);
+   letter-spacing: 10px;
+
+}
+.subtitle_eight, .paragraph_eight{
+   font-family: Zen Kurenaido;
+   font-size: 35px;
+   color: rgb(143, 40, 216);
+   font-weight: 700;
+   text-decoration: underline;
+   text-align: right;
+   font-weight: 700;
+}
+.paragraph_eight {
+   font-size: 25px;
+   font-weight: normal;
+   text-decoration: none;
+   text-align: left;
+
+}
+.subtitle_nine, .subtitle_ten, .title_one {
+   font-family: Pacifico;
+   font-size: 40px;
+   text-align: center;
+   text-shadow: 2px 0 2px rgb(3, 252, 3);
+}
+.paragraph_nine, .paragraph_ten, .text_one {
+   font-family: Pacifico;
+   font-size: 30px;
+   color: rgb(196, 252, 113);
+   text-align: justify;
+   text-indent: 40px;
+   text-shadow: 1px 0 5px black;
+}
+.title_two {
+   font-family: Ruslan Display;
+   font-size: 45px;
+   color: rgb(100, 149, 237);
+   text-align: center;
+   letter-spacing: 5px;
+   text-shadow: 3px 0 2px rgb(16, 16, 252);
+}
+.text_two {
+   font-family: Ruslan Display;
+   font-size: 30px;
+   text-align: justify;
+   color: rgb(16, 16, 252);
+   word-spacing: 3px;
+   text-transform: capitalize;
+   text-shadow: 2px 0 2px rgb(100, 149, 237);
+}
+.title_three, .title_four, .title_five {
+   font-family: Rampart One;
+   font-size: 40px;
+   color: rgb(255, 212, 157);
+   text-shadow: 2px 0 2px rgb(0, 0, 0);
+   text-decoration: underline;
+}
+.title_four {
+   text-align: center;
+}
+.title_five {
+   text-align: right;
+}
+.text_three, .text_five {
+   font-family: Rampart One;
+   font-size: 25px;
+   color: rgb(255, 212, 157);
+   text-shadow: 2px 0 2px rgb(0, 0, 0);
+   text-align: left;
+}
+.text_four {
+   font-family: Rampart One;
+   font-size: 25px;
+   color: rgb(255, 212, 157);
+   text-shadow: 1px 0 1px rgb(0, 0, 0);
+   text-align: center;
+}
+.text_five {
+   text-align: right;
+}
+.title_six {
+   font-family: Train One;
+   font-size: 40px;
+   color: rgb(235, 148, 119);
+   text-align: right;
+   text-transform: uppercase;
+   text-decoration: line-through;
+}
+.text_six {
+   font-family: Train One;
+   font-size: 35px;
+   color: rgb(235, 148, 119);
+   text-shadow: 1px 0 2px rgb(189, 49, 3);
+}
+.title_seven {
+   font-family: Stalinist One;
+   font-size: 35px;
+   color: rgb(190, 190, 0);
+   text-align: center;
+   text-shadow: 2px 0 2px rgb(0, 0, 0);
+   letter-spacing: 5px;
+}
+.text_seven, .list_one {
+   font-family: Stalinist One;
+   font-size: 25px;
+   color: rgb(190, 190, 0);
+   text-shadow: 2px 0 2px rgb(0, 0, 0);
+   letter-spacing: 5px;
+   word-spacing: 3px;
+   line-height: 30px;
+}
+.title_eight, .title_nine, .title_ten {
+   font-family: DotGothic16;
+   font-size: 35px;
+   color: rgb(255, 127, 80);
+   text-decoration: underline;
+   text-align: right;
+   font-weight: 700;
+   text-shadow: 1px 0 2px black;
+
+}
+.text_eight, .text_nine, .text_ten {
+   font-family: DotGothic16;
+   font-size: 20px;
+   color: rgb(255, 127, 80);
+   font-weight: 700;
+   text-align: right;
+}
+.foto_one, .foto_two, .foto_three, .foto_four, .foto_five, .foto_six {
+   width: 25px;
+   height: 25px;
+}
+.link_one, .link_two {
+   color: rgb(24, 228, 228);
+   padding-left: 700px;
+   font-size: 40px;
+}
+.link_one:hover {
+   color: rgb(255, 1, 1);
+}
+.link_two {
+   padding-left: 550px;
+}
+.link_two:hover {
+   color: rgb(255, 1, 1);
+}
+.link_two {
+   padding-left: 600px;
+}
+.arrow, .arrow_one {
+   width: 40px;
+   height: 40px;
+}
